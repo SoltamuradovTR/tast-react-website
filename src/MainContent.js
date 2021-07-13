@@ -1,20 +1,20 @@
-import React from 'react';
-import { Route } from 'react-router-dom';
-import HomePage from './HomePage';
-import FeaturesPage from './FeaturesPage';
-import Contact from './Contact';
+import React from "react";
+import { Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import FeaturesPage from "./FeaturesPage";
+import Contact from "./Contact";
 
 function MainContent() {
   return (
     <div className="content">
       <Route exact path="/">
-        <HomePage/>
+        <HomePage />
       </Route>
       <Route path="/features">
-        <FeaturesPage/>
+        <FeaturesPage />
       </Route>
       <Route path="/contact">
-        <Contact/>
+        <Contact />
       </Route>
     </div>
   );
